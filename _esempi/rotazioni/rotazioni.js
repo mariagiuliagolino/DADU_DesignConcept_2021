@@ -22,7 +22,7 @@ function draw() {
   fill(128);
   push();
   translate(w/2, w/4*3);
-  rotate(a);
+  rotate(a+PI);
   square(0,0,90);
   pop();
 }
